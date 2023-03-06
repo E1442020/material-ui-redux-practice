@@ -1,0 +1,19 @@
+.stack{
+    width: 40%;
+    margin:50px auto;
+}
+.info{
+    width: 40%;
+    margin:50px auto;
+    padding: 15px 0px;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width:940px) {
+    .stack,.info{
+       width: 90%;
+    }
+    
+}
